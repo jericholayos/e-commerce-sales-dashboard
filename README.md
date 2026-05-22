@@ -32,25 +32,6 @@ An end-to-end data analytics project built with **PostgreSQL** and **Power BI**,
 
 ---
 
-## Project Structure
-
-```
-ecommerce-sales-dashboard/
-│
-├── sql/
-│   ├── 01_star_schema_creation.sql     # Dimension and fact table creation
-│   └── 02_all_queries.sql              # KPI queries, window functions, RFM
-│
-├── screenshots/
-│   └── dashboard.png
-│
-├── ecommerce.csv
-├── sales_dashboard.pbix
-└── README.md
-```
-
----
-
 ## Data Model
 
 Star schema with one fact table and four dimension tables:
