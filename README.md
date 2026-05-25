@@ -8,7 +8,7 @@ An end-to-end data analytics project built with **PostgreSQL** and **Power BI**,
 ---
 
 ## Dashboard Preview
-<img width="1340" height="754" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/ffd2fc1e-3a19-443c-9c6f-8b91b6247a9c" />
+<img width="1341" height="749" alt="image" src="https://github.com/user-attachments/assets/0ff65a76-4df3-4ca6-8690-e5bcab28ac21" />
 
 ---
 
