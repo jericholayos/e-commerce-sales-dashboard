@@ -5,12 +5,10 @@
 
 An end-to-end data analytics project built with **PostgreSQL** and **Power BI**, covering data ingestion, star schema modeling, SQL analysis, and an interactive BI dashboard.
 
----
 
 ## Dashboard Preview
 <img width="1341" height="749" alt="image" src="https://github.com/user-attachments/assets/0ff65a76-4df3-4ca6-8690-e5bcab28ac21" />
 
----
 
 ## Tech Stack
 
@@ -21,7 +19,6 @@ An end-to-end data analytics project built with **PostgreSQL** and **Power BI**,
 | Power Query | Data transformation and cleaning |
 | DAX | KPI measures, time intelligence |
 
----
 
 ## Dataset
 
@@ -29,8 +26,6 @@ An end-to-end data analytics project built with **PostgreSQL** and **Power BI**,
 - **Rows:** 9,799 records
 - **Years:** 2015 – 2018
 - **Fields:** Order ID, Order Date, Ship Date, Ship Mode, Customer, Segment, Region, Category, Sub-Category, Product, Sales
-
----
 
 ## Data Model
 
@@ -52,7 +47,6 @@ dim_geography ─┘
 | `dim_product` | Products with category and sub-category |
 | `dim_geography` | City, state, region, country |
 
----
 
 ## SQL Analysis
 
@@ -70,18 +64,6 @@ dim_geography ─┘
 - Shipping mode performance with average ship days
 - Top 10 products by revenue
 
----
-
-## Dashboard Features
-
-- **KPI Cards:** Total Revenue, Total Orders, Avg Order Value, Unique Customers with YoY comparison
-- **Monthly Revenue Trend:** line chart with area fill
-- **Revenue by Category / Sub-Category / Segment / Region:** bar and column charts
-- **Top Products Table:** ranked by total revenue
-- **Orders by Ship Mode:** column chart
-- **Slicers:** Region, Segment, Month, Year with reset button
-
----
 
 ## Key Findings
 
