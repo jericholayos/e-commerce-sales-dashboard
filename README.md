@@ -20,34 +20,6 @@ An end-to-end data analytics project built with **PostgreSQL** and **Power BI**,
 | DAX | KPI measures, time intelligence |
 
 
-## Dataset
-
-- **Source:** E-Commerce Sales Dataset
-- **Rows:** 9,799 records
-- **Years:** 2015 – 2018
-- **Fields:** Order ID, Order Date, Ship Date, Ship Mode, Customer, Segment, Region, Category, Sub-Category, Product, Sales
-
-## Data Model
-
-Star schema with one fact table and four dimension tables:
-
-```
-dim_date ──────┐
-dim_customer ──┤
-               ├──▶ fact_sales
-dim_product ───┤
-dim_geography ─┘
-```
-
-| Table | Description |
-|-------|-------------|
-| `fact_sales` | 9,799 rows, one per order line item |
-| `dim_date` | Continuous date spine from 2015–2018 |
-| `dim_customer` | Unique customers with segment |
-| `dim_product` | Products with category and sub-category |
-| `dim_geography` | City, state, region, country |
-
-
 ## SQL Analysis
 
 **Aggregations**
