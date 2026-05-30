@@ -10,15 +10,6 @@ An end-to-end data analytics project built with **PostgreSQL** and **Power BI**,
 <img width="1341" height="749" alt="image" src="https://github.com/user-attachments/assets/0ff65a76-4df3-4ca6-8690-e5bcab28ac21" />
 
 
-## Tech Stack
-
-| Tool | Purpose |
-|------|---------|
-| PostgreSQL 15 | Database, star schema, SQL analysis |
-| Power BI Desktop | Dashboard, DAX measures, visualizations |
-| Power Query | Data transformation and cleaning |
-| DAX | KPI measures, time intelligence |
-
 
 ## SQL Analysis
 
