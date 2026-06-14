@@ -3,39 +3,16 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 
-An end-to-end data analytics project built with **PostgreSQL** and **Power BI**, covering data ingestion, star schema modeling, SQL analysis, and an interactive BI dashboard.
+End-to-end analytics project built with PostgreSQL and Power BI — covering data ingestion, star schema modeling, SQL analysis, and an interactive dashboard.
 
-
-## Dashboard Preview
-<img width="1341" height="749" alt="image" src="https://github.com/user-attachments/assets/0ff65a76-4df3-4ca6-8690-e5bcab28ac21" />
-
-
-
-## SQL Analysis
-
-**Aggregations**
-- Total revenue, orders, and unique customers by year
-- Revenue by category, sub-category, region, and segment
-
-**Window Functions**
-- Month-over-month growth using `LAG()`
-- Running revenue total using `SUM() OVER()`
-- Category share using `PARTITION BY`
-
-**Advanced**
-- Customer RFM analysis (Recency, Frequency, Monetary)
-- Shipping mode performance with average ship days
-- Top 10 products by revenue
-
+![Dashboard Preview](https://github.com/user-attachments/assets/0ff65a76-4df3-4ca6-8690-e5bcab28ac21)
 
 ## Key Findings
 
-| Area | Finding |
-|------|---------|
-| **Category** | Technology is the top revenue category at $827K |
-| **Region** | West generates the highest revenue across all years |
-| **Segment** | Consumer accounts for the largest share at $1.15M |
-| **Shipping** | Standard Class is used in over half of all orders |
-| **Seasonality** | Revenue consistently peaks in Q4 (Nov–Dec) and dips in Jan–Feb |
-| **Top Product** | Canon imageCLASS 2200 Advanced Copier leads at $35,700 in 2018 |
-| **Growth** | 2018 had the highest revenue at $722K, a 20.3% YoY increase |
+- Technology leads all categories at $827K in revenue
+- West region generates the highest revenue across all years
+- Consumer segment accounts for the largest share at $1.15M
+- Standard Class used in over half of all orders
+- Revenue peaks in Q4 (Nov–Dec), dips in Jan–Feb
+- Canon imageCLASS 2200 Advanced Copier is the top product at $35,700 (2018)
+- 2018 was the highest revenue year at $722K, up 20.3% YoY
